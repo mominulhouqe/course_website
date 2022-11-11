@@ -1,0 +1,109 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url(./barber/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    text-align: center;
+    margin-left: auto;
+    background-color: rgb(0,0,0,0.3);
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: rgb(24, 53, 27);
+    transform: scale(1.1);
+    color: rgb(253, 239, 239);
+}
+
+.banner-container{
+    height: 100vh;
+    
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgb(85, 85, 227);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#features{
+    padding: 5% 10%;
+    background-color: wheat;
+}
+.features-col{
+    border: 1px solid rgb(243, 47, 197);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+
+}
+.icon-style{
+    background-color: #bb0aac;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+}
+.section-title h1{
+    text-align: center;
+    font-weight: bolder;
+   
+}
+.hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 50px;
+}
+.persn{
+    font-weight: bolder;
+
+}
+#about-me{
+    padding: 5% 10%;
+    background-color: wheat;
+}
+
+.star i{
+    width: 20px;
+}
+table{
+    font-size: 20px;
+}
+.row{
+    
+    box-shadow: 2px 1px 1px saddlebrown;
+}
+.row:hover{
+    box-shadow: 4px 4px 5px black;
+    transition: .3s;
+}
+.card:hover{
+    box-shadow: 3px 3px 2px rgb(18, 18, 18);
+}
+.padd{
+    padding: 50px;
+    font-style: italic;
+}
+footer{
+    padding: 10px;
+}
